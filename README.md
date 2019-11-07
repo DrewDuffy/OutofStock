@@ -10,7 +10,7 @@ TWILIO AUTH TOKEN - token given by Twilio after account creation
 
 WEBSITE - The website address you want to scrape for the out of stock item
 
-status - Change the variable from 'Out of Stock' if the website doesn't use it (i.e. Stock: 0, 0 Items left)
+status - Change the variable from 'Out of Stock' if the website doesn't use that as the indicator of out of the out of stock item (i.e. Stock: 0, 0 Items left)
 
 TWILIOPHONE: Phone number given by Twilio when you sign up
 
