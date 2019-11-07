@@ -25,7 +25,7 @@ while True:
 	if status not in stock:
 			message = client.messages \
     			.create(
-         			body='This is the ship that made the Kessel Run in fourteen parsecs?',
+         			body='The item you wish to purchase is now in stock!',
          			from_='+TWILIOPHONE',
          			to='+YOURPHONE'
      			)
