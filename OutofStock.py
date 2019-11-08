@@ -18,7 +18,7 @@ status = 'Out of Stock'
 #Parse the website
 soup = BeautifulSoup(url.content, 'html.parser')
 
-#Look for h1 (Change soup.h1 to other HTML code, depending on where the website puts the status variable in HTML)
+#Look for h1 (Change soup.h1 to other HTML code depending on where the website puts the status variable in HTML)
 stock = soup.h1
 
 while True:
