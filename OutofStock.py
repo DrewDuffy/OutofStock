@@ -8,7 +8,7 @@ account_sid = 'TWILIO SID'
 auth_token = 'TWILIO AUTH TOKEN'
 client = Client(account_sid, auth_token)
 
-#Disguise header so the GET request doesn't get blocked
+#Disguise header so the script doesn't get blocked
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
 url = requests.get('WEBSITE URL', headers=headers)
 
